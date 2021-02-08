@@ -27,7 +27,7 @@ img {
 }
 
 .grey {
-  background-color: grey;
+  background-color: #f9f9f9;
 }
 
 #lezioni [class*=col-],
