@@ -1,0 +1,38 @@
+img {
+  height: 200px;
+  margin-bottom: 25px;
+}
+
+#lezioni, #steps, #why{
+  text-align: center;
+  padding: 25px 0;
+}
+
+#steps{
+  margin: 50px 0;
+}
+
+#why .row {
+  margin-bottom: 50px;
+}
+
+#why .row img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+#why hr{
+  margin-top: 25px;
+}
+
+.grey {
+  background-color: grey;
+}
+
+@media screen and (max-width: 991px){
+
+  #lezioni [class*=col-],
+  #steps [class*=col-] {
+    margin-top: 50px;  }
+}
