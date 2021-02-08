@@ -30,11 +30,11 @@ img {
   background-color: #f9f9f9;
 }
 
-#lezioni [class*=col-],
-#steps [class*=col-] {
+#lezioni .row>div,
+#steps .row>div {
   margin-top: 50px;
 }
 
-#steps [class*=col-]{
+#steps .row>div{
   padding: 0 15px;
 }
